@@ -22,7 +22,7 @@ spec:
         - containerPort: 80
         env:
         - name: MESSAGE
-          value: "{{ .Values.message }}"
+          value: "{{ .Values.myExternalValue }}"
 ---
 apiVersion: batch/v1
 kind: Job
