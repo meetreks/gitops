@@ -1,1 +1,2 @@
 message: "Hello, World Sai Ram!"
+myExternalValue: "Hello from ConfigMap!"
